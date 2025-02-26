@@ -80,7 +80,9 @@ Find a regular expression that matches all of the different phone number formats
  
 `Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** 
-^\+?49\s?(?:\(0\))?\s?\d{3,4}[\s/-]?\d{2,4}[\s/-]?\d{2,4}$ - i don`t like this RE
+**Answer:**   
+
+^\+?49\s?(?:\(0\))?\s?\d{3,4}[\s/-]?\d{2,4}[\s/-]?\d{2,4}$ - i don`t like this RE  
+
 (?:\+|0)\d[\d\s/-]{0,21} - this one better
 
